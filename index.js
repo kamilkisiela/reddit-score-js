@@ -39,5 +39,6 @@ var RedditScore = (function () {
     };
     return RedditScore;
 }());
-exports.RedditScore = RedditScore;
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = RedditScore;
 //# sourceMappingURL=index.js.map

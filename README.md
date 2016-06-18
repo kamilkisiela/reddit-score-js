@@ -3,9 +3,7 @@
 Implemented in JavaScript
 
 ```js
-import {
-  RedditScore,
-} from './index';
+import RedditScore from 'reddit-score';
 
 const reddit = new RedditScore;
 

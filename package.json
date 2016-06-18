@@ -1,0 +1,30 @@
+{
+  "name": "reddit-score",
+  "version": "0.0.1",
+  "description": "JavaScript implementation of Reddit hot ranking algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run compile",
+    "compile": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamilkisiela/reddit-score-js.git"
+  },
+  "keywords": [
+    "reddit",
+    "ranking"
+  ],
+  "author": "Kamil Kisiela <kamil.kisiela@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamilkisiela/reddit-score-js/issues"
+  },
+  "homepage": "https://github.com/kamilkisiela/reddit-score-js#readme",
+  "devDependencies": {
+    "tsc": "^1.20150623.0",
+    "typescript": "^1.8.10"
+  }
+}

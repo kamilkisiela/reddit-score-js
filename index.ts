@@ -1,4 +1,4 @@
-export class RedditScore {
+export default class RedditScore {
   private epoch: Date;
   private base: number = 1134028003; // 8th December 2005 7:46:43 AM UTC
 
